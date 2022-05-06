@@ -7,7 +7,7 @@ const Tile = (props) => {
     props.selected || props.matched ? { backgroundColor: props.color } : null;
   return (
     <div className="Tile" style={dynamicColor}>
-      {props.selected || props.matched ? <props.svg /> : null}{" "}
+      {props.selected || props.matched ? <props.svg /> } : null
     </div>
   );
 };
